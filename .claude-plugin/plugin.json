@@ -1,0 +1,9 @@
+{
+  "name": "release-gate-chair",
+  "version": "0.1.0",
+  "description": "Runs web-preflight, the security red team and the performance audit in order, then computes one release posture (HOLD or ready) with a script. Three verdicts stay separate.",
+  "author": {
+    "name": "Abdul Rahman P Z"
+  },
+  "repository": "https://github.com/arm-pz/release-gate-chair"
+}
