@@ -111,7 +111,7 @@ directory, reusing existing `PREFLIGHT-*` ids. It can move `ready` to `HOLD`. It
 - Turn an unrun lane into a pass, or report a partial run as complete.
 - Run red-team against production, or reproduce a secret in the register.
 
-Read `caffeinity-stack` before reporting Caffeinity work (deploy runbook, no-fabricated-evidence).
+If a `caffeinity-stack` skill is installed, read it before reporting Caffeinity work (deploy runbook, no-fabricated-evidence).
 Workflow W3 in `caffeinity-routing` is the sequence this skill implements.
 
 ## Verify the gate before trusting it
