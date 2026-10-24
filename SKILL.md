@@ -9,13 +9,14 @@ description: >-
   ship", "should we deploy", "give me a go/no-go", or before any deploy of a site or client
   app you own or are authorized to test. Three verdicts stay separate; a pass in one lane
   never covers another. Variant: this fork runs the lanes itself and copies their finding
-  tables verbatim. Not for a single-lane check (invoke that skill directly), not for
-  penetration testing of production, and not for performing the deploy.
+  tables verbatim; it is the default release gate. Not for a single-lane check (invoke that
+  skill directly), for reports that already exist (use release-gate-validator), for
+  penetration testing of production, or for performing the deploy.
 argument-hint: <production URL> [--app <isolated/local URL>] [--project <path>]
 version: 0.1.0
 ---
 
-# Release gate (chair variant)
+# Release gate chair
 
 Three lanes, three verdicts, one posture. The gate adds nothing to what the three skills can
 detect; what it adds is that the arithmetic is redone by `scripts/check_gate.mjs`, coverage is
