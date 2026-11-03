@@ -112,7 +112,7 @@ directory, reusing existing `PREFLIGHT-*` ids. It can move `ready` to `HOLD`. It
 - Run red-team against production, or reproduce a secret in the register.
 
 If a `caffeinity-stack` skill is installed, read it before reporting Caffeinity work (deploy runbook, no-fabricated-evidence).
-Brew 3 · Espresso in `caffeinity-routing` is the sequence this skill implements.
+Workflow 3 · launch-safely in `workflow-router` is the sequence this skill implements.
 
 ## Verify the gate before trusting it
 
